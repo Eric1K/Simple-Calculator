@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<head>  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Calculator</title>
+    <script src ="./javascript/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css";>
+
+</head>
+
+<body>
+    <center id = "center">
+
+        <div class = "header">
+            <h1>
+                Simple
+                <br>Calculator
+            </h1>
+    
+            
+        </div>
+        
+        <input  readonly="readonly" id = "display"></input>
+
+        <div class = "calc-content">
+        
+        <span class = "misc">
+            <button onclick = "clearDisplay()">C</button>
+            <button onclick = "pi()">π</button>
+            <button onclick = "percent()">%</button>
+            <button onclick = "backspace()">⌫</button>
+        </span>
+        
+        <br><br>
+
+        <span class = "misc">
+            <button onclick = "reciprical()">1/x</button>
+            <button onclick = "squared()">x²</button>
+            <button onclick = "squareRoot()">√x</button>
+        </span>
+        
+        <span class = "operations">
+            <button onclick = "input('/')">/</button>
+        </span>
+        
+        <br><br>
+
+        <span class = "numbers">
+            <button onclick = "input(7)">7</button>
+            <button onclick = "input(8)">8</button>
+            <button onclick = "input(9)">9</button>
+        </span>
+        
+        <span class = "operations">
+            <button onclick = "input('*')">x</button>
+        </span>
+        
+        <br><br>
+
+        <span class = "numbers">
+            <button onclick = "input(4)">4</button>
+            <button onclick = "input(5)">5</button>
+            <button onclick = "input(6)">6</button>
+        </span>
+
+        <span class = "operations">
+            <button onclick = "input('-')">-</button> 
+        </span>
+
+        <br><br>
+
+        <span class = "numbers">
+            <button onclick = "input(1)">1</button>
+            <button onclick = "input(2)">2</button>
+            <button onclick = "input(3)">3</button>
+            
+        </span>
+
+        <span class = "operations">
+            <button onclick = "input('+')">+</button> 
+        </span>
+        
+        <br><br>
+
+        <span class = "numbers">
+            <button onclick = "input(0)">0</button>
+            <button onclick = "input('.')">.</button>
+            <button onclick = "switchS()">+/-</button>
+        </span>
+        
+        <span class = "operations">
+            <button onclick = "calculate()">=</button>
+        </span>
+        
+        <br><br>
+
+        <div class = "copyrgiht">
+            <p> &copy; Eric1K 2020</p>
+            <a href = "https://github.com/eric1k">github.com/eric1k</a>
+        </div>
+
+        
+        </div>
+
+        
+    </center>
+    
+
+</body>
